@@ -15,7 +15,7 @@ if(Myboolean == true)
 	System.out.println("Url is correct, you can go ahead with this");
 		}
 	else{
-	System.out.println("Url is Incorrect, please check your URL");
+	System.out.println("Url is Incorrect, please check your URL!");
 		}
 	}
 }
