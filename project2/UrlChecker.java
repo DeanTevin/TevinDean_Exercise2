@@ -10,10 +10,13 @@ class UrlChecker{
 		String name = input.nextLine();
 		Matcher Mymatcher = Mypattern.matcher(name);
 		Boolean Myboolean = Mymatcher.matches();
-if(Myboolean == true) {
-	System.out.println("Url is correct");
+if(Myboolean == true) 
+		{
+	System.out.println("Url is correct, you can go ahead with this");
+		}
+	else{
+	System.out.println("Url is Incorrect, please check your URL");
+		}
 	}
-	else {
-	System.out.println("Url is Incorrect");
-	}
+}
 	
